@@ -11,6 +11,7 @@ def count_batteries_by_health(present_capacities):
     elif soh<=62 and soh>=0:
       health_dict["failed"]+=1
   return health_dict
+  
 
   return {  # this is incorrect because here they didnt calculate soh
     "healthy": 0,
